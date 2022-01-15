@@ -1,0 +1,1566 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: whitesmoke;
+    margin: 0;
+}
+
+/*------------------------
+header
+--------------------------*/
+
+.header-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 120px;
+    margin-left: 87px;
+    margin-right: 87px;
+    margin-bottom: 20px;
+}
+
+.header-parts {
+    display: flex;
+}
+
+.part {
+    margin-left: 40px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+#header-1-1 h1 {
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.part a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: black;
+}
+
+.head-icon {
+    font-size: 20px;
+}
+
+.part:hover {
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.199);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/*------------------
+section 1
+----------------------*/
+
+.sec {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin: 5px 87px;
+}
+
+.sec-part {
+    width: 50%;
+}
+
+.sec-p1 {
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.sec-p2 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.sec-p1, .sec-p2, .sec-part-child button {
+    margin: 16px 0;
+}
+
+.sec-part-child button {
+    width: 196px;
+    height: 44px;
+    border-radius: 41px;
+    border: none;
+    background-color: rgb(136, 7, 7);
+    font-size: 15px;
+    color: whitesmoke;
+    transition: 0.5s;
+}
+
+.sec-btn-icon {
+    margin-left: 24px;
+}
+
+.sec-part-child button:hover {
+    background-color: rgb(41, 41, 41);
+    font-size: 18px;
+    color: green;
+}
+
+.sec-part img {
+    width: 740px;
+    height: 714px;
+}
+
+/*------------------
+section 2 
+-----------------------*/
+
+.brand {
+    border-top: 2px solid rgba(0, 0, 0, 0.068);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.068);
+    margin: 80px 165px;
+}
+
+.brand-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-items: center;
+    padding: 20px 0;
+}
+
+.brand-child img {
+    width: 65px;
+    height: 51px;
+}
+
+/*------------------------
+photo grid
+-------------------------------*/
+
+.collection {
+    margin: 50px 195px;
+}
+
+.collection-heading {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    grid-column-gap: 10px;
+    justify-items: center;
+}
+
+.photo-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.24);
+    border-radius: 5px;
+    width: 310px;
+    transition: 0.5s;
+}
+
+.photo-part:hover {
+    transform: scale(1.1);
+}
+
+.photo-sec {
+    padding: 17px 5px;
+}
+
+.child-part {
+    display: flex;
+    align-items: center;
+}
+
+.child-part-item {
+    margin-right: 8px;
+}
+
+.photo-child h2, .photo-child h3, .rating, .fa-star, .photo-child p {
+    margin: 6px 0;
+}
+
+.photo-child {
+    transition: 0.5s;
+}
+
+.photo-child:hover {
+    background-color: rgba(0, 0, 0, 0.137);
+    border-radius: 7px;
+}
+
+.photo-child h2 {
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.photo-child h3 {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.rating {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.photo-child p {
+    font-weight: 500;
+    font-size: 14px;
+    font-style: normal;
+}
+
+#star-1, #star-2, #star-3, #star-4, #star-6, #star-7, #star-8, #star-11, #star-12, #star-13, #star-14, #star-15, #star-16, #star-17, #star-18, #star-19, #star-20, #star-21, #star-22, #star-23, #star-26, #star-27, #star-28, #star-31, #star-32, #star-33, #star-34, #star-36, #star-37, #star-38, #star-39, #star-41, #star-42, #star-43 {
+    color: rgb(224, 135, 0);
+}
+
+
+/*------------------
+survar form
+----------------------*/
+
+.survay {
+    margin: 200px 195px;
+}
+
+.survay-heading {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.survay-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+video {
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 7px;
+}
+
+.survay-part img {
+    width: 100%;
+    border-radius: 7px;
+}
+
+.survey-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.part-child {
+    transition: 0.5s;
+}
+
+.part-child:hover {
+    transform: scale(1.1);
+}
+
+.part-child h3, .part-child p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+input, select, textarea {
+    border-radius: 10px;
+    border: none;
+}
+
+.part-child button {
+    width: 100px;
+    height: 30px;
+    border-radius: 41px;
+    border: none;
+    background-color: rgb(136, 7, 7);
+    font-size: 14px;
+    color: whitesmoke;
+    transition: 0.5s;
+    margin: 10px;
+}
+
+.survey-btn-icon {
+    margin-left: 12px;
+}
+
+.survay-part button:hover {
+    background-color: rgb(41, 41, 41);
+    font-size: 15px;
+    color: green;
+}
+
+.survey-p {
+    margin: 10px;
+    transition: 0.5s;
+}
+
+.survey-p:hover {
+    background-color: rgba(0, 0, 0, 0.158);
+    border-radius: 7px;
+}
+
+/*--------------------
+footer
+--------------------------*/
+.footer-1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: rgb(17, 17, 17);
+    margin-bottom: 0;
+    padding: 20px;
+    color: whitesmoke;
+    justify-items: center;
+}
+
+.footer-div h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.footer-div h3, .footer-div h4 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.f-icon {
+    display: flex;
+}
+
+.ic {
+    margin: 0 10px;
+    color: whitesmoke;
+    font-size: 10dx;
+}
+
+/*----------------------
+media quary
+--------------------------*/
+
+@media only screen and (min-width:1px) and (max-width:450px) {
+
+    /*---------------
+header
+------------------*/
+    .header-1 {
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+        flex-direction: column;
+        margin: 35px 99px;
+    }
+
+    .header-parts {
+        display: flex;
+        align-items: center;
+    }
+
+    .part {
+        margin: 10px;
+        text-align: center;
+        transition: 0.5s;
+    }
+
+    #header-1-1 h1 {
+        font-weight: 500;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .part a {
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 13px;
+        color: black;
+    }
+
+    .head-icon {
+        font-size: 10px;
+    }
+
+    .part:hover {
+        transform: scale(1.1);
+        background-color: rgba(0, 0, 0, 0.199);
+        padding: 4px;
+        border-radius: 5px;
+    }
+
+    /*--------------------------
+section
+------------------------------*/
+
+    .sec {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        justify-items: center;
+        margin: 20px 87px;
+    }
+
+    .sec-part {
+        width: 50%;
+    }
+
+    .sec-p1 {
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .sec-p2 {
+        font-size: 12px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .sec-part-child button {
+        width: 100px;
+        height: 20px;
+        border-radius: 41px;
+        border: none;
+        background-color: rgb(136, 7, 7);
+        font-size: 9px;
+        color: whitesmoke;
+        transition: 0.5s;
+        text-align: center;
+    }
+
+    .sec-btn-icon {
+        margin-left: 12px;
+    }
+
+    .sec-part-child button:hover {
+        background-color: rgb(41, 41, 41);
+        font-size: 10px;
+        color: green;
+    }
+
+    .sec-p1, .sec-p2, .sec-part-child button {
+        margin: 16px 0;
+    }
+
+    .sec-part img {
+        width: 140px;
+        height: 114px;
+        order: 1;
+    }
+
+    .sec-fr {
+        order: 2;
+    }
+
+    /*------------------
+section 2 
+-----------------------*/
+
+    .brand {
+        margin: 40px 165px;
+    }
+
+    .brand-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+        justify-content: space-evenly;
+        padding: 10px 0;
+        grid-gap: 10px;
+    }
+
+    .brand-child img {
+        width: 40px;
+        height: 20px;
+    }
+
+    /*------------------------
+photo grid
+-------------------------------*/
+
+    .collection {
+        margin: 50px 195px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .collection-heading {
+        font-size: 24px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .photo-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        grid-column-gap: 10px;
+        justify-content: center;
+    }
+
+    .photo-part {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.24);
+        border-radius: 5px;
+        width: 310px;
+        transition: 0.5s;
+    }
+
+    .photo-part:hover {
+        transform: scale(1.1);
+    }
+
+    .photo-sec {
+        padding: 17px 5px;
+    }
+
+    .photo-part img {
+        width: 300px;
+        height: 256px;
+    }
+
+    .photo-child {
+        transition: 0.5s;
+    }
+
+    .photo-child:hover {
+        background-color: rgba(0, 0, 0, 0.137);
+        border-radius: 7px;
+    }
+
+    .child-part {
+        display: flex;
+        align-items: center;
+    }
+
+    .child-part-item {
+        margin-right: 8px;
+    }
+
+    .photo-child h2, .photo-child h3, .rating, .fa-star, .photo-child p {
+        margin: 6px 0;
+    }
+
+    .photo-child h2 {
+        font-weight: 500;
+        font-size: 28px;
+    }
+
+    .photo-child h3 {
+        font-weight: 400;
+        font-size: 24px;
+    }
+
+    .rating {
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .photo-child p {
+        font-weight: 500;
+        font-size: 14px;
+        font-style: normal;
+    }
+
+    /*------------------
+survar form
+----------------------*/
+
+    .survay {
+        margin: 200px 195px;
+    }
+
+    .survay-heading {
+        font-size: 15px;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .survay-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* align-items: center;
+        justify-items: center; */
+        justify-content: center;
+    }
+
+    video {
+        width: 100%;
+        background-size: cover;
+        background-position: center center;
+        border-radius: 7px;
+    }
+
+    .survay-part img {
+        width: 100%;
+        border-radius: 7px;
+    }
+
+    .survey-sec {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .part-child h3, .part-child p {
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .part-child {
+        transition: 0.5s;
+    }
+
+    .part-child:hover {
+        transform: scale(1.1);
+    }
+
+    input, select, textarea {
+        border-radius: 10px;
+        border: none;
+    }
+
+    .part-child button {
+        width: 100px;
+        height: 30px;
+        border-radius: 41px;
+        border: none;
+        background-color: rgb(136, 7, 7);
+        font-size: 14px;
+        color: whitesmoke;
+        transition: 0.5s;
+        margin: 10px;
+    }
+
+    .survey-btn-icon {
+        margin-left: 12px;
+    }
+
+    .survay-part button:hover {
+        background-color: rgb(41, 41, 41);
+        font-size: 15px;
+        color: green;
+    }
+
+    .survey-p {
+        margin: 10px;
+        transition: 0.5s;
+        order: 2;
+    }
+
+
+    .survey-p:hover {
+        background-color: rgba(0, 0, 0, 0.158);
+        border-radius: 7px;
+    }
+
+    .survey-img {
+        order: 1;
+    }
+
+    /*--------------------
+footer
+--------------------------*/
+    .footer-1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        background-color: rgb(17, 17, 17);
+        margin-bottom: 0;
+        padding: 10px;
+        color: whitesmoke;
+        justify-items: center;
+    }
+
+    .footer-div h1 {
+        font-size: 10px;
+        font-weight: 700;
+    }
+
+    .footer-div h3, .footer-div h4 {
+        font-size: 8px;
+        font-weight: 700;
+    }
+
+    .f-icon {
+        display: flex;
+    }
+
+    .ic {
+        margin: 0 10px;
+        color: whitesmoke;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width:451px) and (max-width:800px) {
+
+    /*---------------
+header
+------------------*/
+    .header-1 {
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+        flex-direction: column;
+        margin: 35px 99px;
+    }
+
+    .header-parts {
+        display: flex;
+        align-items: center;
+    }
+
+    .part {
+        margin: 20px;
+        text-align: center;
+        transition: 0.5s;
+    }
+
+    #header-1-1 h1 {
+        font-weight: 500;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .part a {
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 15px;
+        color: black;
+    }
+
+    .head-icon {
+        font-size: 8px;
+    }
+
+    .part:hover {
+        transform: scale(1.1);
+        background-color: rgba(0, 0, 0, 0.199);
+        padding: 4px;
+        border-radius: 5px;
+    }
+
+    /*--------------------------
+section
+------------------------------*/
+
+    .sec {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        /* justify-items: center; */
+        margin: 20px 87px;
+    }
+
+    .sec-part {
+        width: 50%;
+    }
+
+    .sec-p1 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .sec-p2 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .sec-part-child button {
+        width: 100px;
+        height: 20px;
+        border-radius: 41px;
+        border: none;
+        background-color: rgb(136, 7, 7);
+        font-size: 9px;
+        color: whitesmoke;
+        transition: 0.5s;
+        text-align: center;
+    }
+
+    .sec-btn-icon {
+        margin-left: 12px;
+    }
+
+    .sec-part-child button:hover {
+        background-color: rgb(41, 41, 41);
+        font-size: 10px;
+        color: green;
+    }
+
+    .sec-part img {
+        width: 240px;
+        height: 214px;
+    }
+
+    /*------------------
+section 2 
+-----------------------*/
+
+    .brand {
+        margin: 40px 165px;
+    }
+
+    .brand-grid {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        justify-items: center;
+        justify-content: space-evenly;
+        padding: 10px 0;
+        grid-gap: 10px;
+    }
+
+    .brand-child img {
+        width: 30px;
+        height: 15px;
+    }
+
+    /*------------------------
+photo grid
+-------------------------------*/
+
+    .collection {
+        margin: 50px 195px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .survay-heading {
+        font-size: 24px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .photo-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        grid-column-gap: 10px;
+        justify-content: center;
+    }
+
+    .photo-part {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.24);
+        border-radius: 5px;
+        width: 310px;
+        transition: 0.5s;
+    }
+
+    .photo-part:hover {
+        transform: scale(1.1);
+    }
+
+    .photo-sec {
+        padding: 17px 5px;
+    }
+
+    .photo-part img {
+        width: 300px;
+        height: 256px;
+    }
+
+    .photo-child {
+        transition: 0.5s;
+    }
+
+    .photo-child:hover {
+        background-color: rgba(0, 0, 0, 0.137);
+        border-radius: 7px;
+    }
+
+    .child-part {
+        display: flex;
+        align-items: center;
+    }
+
+    .child-part-item {
+        margin-right: 8px;
+    }
+
+    .photo-child h2, .photo-child h3, .rating, .fa-star, .photo-child p {
+        margin: 6px 0;
+    }
+
+    .photo-child h2 {
+        font-weight: 500;
+        font-size: 28px;
+    }
+
+    .photo-child h3 {
+        font-weight: 400;
+        font-size: 24px;
+    }
+
+    .rating {
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .photo-child p {
+        font-weight: 500;
+        font-size: 14px;
+        font-style: normal;
+    }
+
+    /*------------------
+survar form
+----------------------*/
+
+    .survay {
+        margin: 200px 195px;
+    }
+
+    .survay-heading {
+        font-size: 20px;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .survay-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* align-items: center;
+    justify-items: center; */
+        justify-content: center;
+    }
+
+    video {
+        width: 100%;
+        background-size: cover;
+        background-position: center center;
+        border-radius: 7px;
+    }
+
+    .survay-part img {
+        width: 100%;
+        border-radius: 7px;
+    }
+
+    .survey-sec {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .part-child {
+        transition: 0.5s;
+    }
+
+    .part-child:hover {
+        transform: scale(1.1);
+    }
+
+    .part-child h3, .part-child p {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    input, select, textarea {
+        border-radius: 10px;
+        border: none;
+    }
+
+    .part-child button {
+        width: 100px;
+        height: 30px;
+        border-radius: 41px;
+        border: none;
+        background-color: rgb(136, 7, 7);
+        font-size: 14px;
+        color: whitesmoke;
+        transition: 0.5s;
+        margin: 10px;
+    }
+
+    .survey-btn-icon {
+        margin-left: 12px;
+    }
+
+    .survay-part button:hover {
+        background-color: rgb(41, 41, 41);
+        font-size: 15px;
+        color: green;
+    }
+
+    .survey-p {
+        margin: 10px;
+        transition: 0.5s;
+        order: 2;
+    }
+
+    .survey-p:hover {
+        background-color: rgba(0, 0, 0, 0.158);
+        border-radius: 7px;
+    }
+
+    .survey-img {
+        order: 1;
+    }
+
+    /*--------------------
+footer
+--------------------------*/
+    .footer-1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        background-color: rgb(17, 17, 17);
+        margin-bottom: 0;
+        padding: 20px;
+        color: whitesmoke;
+        justify-items: center;
+    }
+
+    .footer-div h1 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .footer-div h3, .footer-div h4 {
+        font-size: 10px;
+        font-weight: 700;
+    }
+
+    .f-icon {
+        display: flex;
+    }
+
+    .ic {
+        margin: 0 10px;
+        color: whitesmoke;
+        font-size: 10px;
+    }
+}
+
+/*--------------------------
+just for survey section
+--------------------------------*/
+@media only screen and (min-width:751px) and (max-width:1350px) {
+    /*------------------
+survar form
+----------------------*/
+
+    .survay {
+        margin: 200px 195px;
+    }
+
+    .survay-heading {
+        font-size: 20px;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .survay-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+
+    video {
+        width: 100%;
+        background-size: cover;
+        background-position: center center;
+        border-radius: 7px;
+    }
+
+    .survay-part img {
+        width: 100%;
+        border-radius: 7px;
+    }
+
+    .survey-sec {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .part-child {
+        transition: 0.5s;
+    }
+
+    .part-child:hover {
+        transform: scale(1.1);
+    }
+
+    .part-child h3, .part-child p {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    input, select, textarea {
+        border-radius: 10px;
+        border: none;
+    }
+
+    .part-child button {
+        width: 100px;
+        height: 30px;
+        border-radius: 41px;
+        border: none;
+        background-color: rgb(136, 7, 7);
+        font-size: 14px;
+        color: whitesmoke;
+        transition: 0.5s;
+        margin: 10px;
+    }
+
+    .survey-btn-icon {
+        margin-left: 12px;
+    }
+
+    .survay-part button:hover {
+        background-color: rgb(41, 41, 41);
+        font-size: 15px;
+        color: green;
+    }
+
+    .survey-p {
+        margin: 10px;
+        transition: 0.5s;
+        order: 2;
+    }
+
+    .survey-p:hover {
+        background-color: rgba(0, 0, 0, 0.158);
+        border-radius: 7px;
+    }
+
+    .survey-img {
+        order: 1;
+    }
+}
+
+@media only screen and (min-width:751px) and (max-width:900px) {
+
+    /*------------------------
+header
+--------------------------*/
+
+    .header-1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 120px 87px;
+    }
+
+    .header-parts {
+        display: flex;
+    }
+
+    .part {
+        margin-left: 40px;
+        text-align: center;
+        transition: 0.5s;
+    }
+
+    #header-1-1 h1 {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .part a {
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 16px;
+        color: black;
+    }
+
+    .head-icon {
+        font-size: 20px;
+    }
+
+    .part:hover {
+        transform: scale(1.1);
+        background-color: rgba(0, 0, 0, 0.199);
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    /*--------------------------
+section
+------------------------------*/
+
+    .sec {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* align-items: center;
+    justify-items: center; */
+        margin: 20px 87px;
+    }
+
+    .sec-part {
+        width: 50%;
+    }
+
+    .sec-p1 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .sec-p2 {
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .sec-part-child button {
+        width: 100px;
+        height: 22px;
+        border-radius: 41px;
+        border: none;
+        background-color: rgb(136, 7, 7);
+        font-size: 6px;
+        color: whitesmoke;
+        transition: 0.5s;
+    }
+
+    .sec-btn-icon {
+        margin-left: 24px;
+    }
+
+    .sec-part-child button:hover {
+        background-color: rgb(41, 41, 41);
+        font-size: 7px;
+        color: green;
+    }
+
+    .sec-part img {
+        width: 440px;
+        height: 414px;
+    }
+
+
+    /*------------------
+section 2 
+-----------------------*/
+
+    .brand {
+        margin: 40px 165px;
+    }
+
+    .brand-grid {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        justify-items: center;
+        justify-content: space-evenly;
+        padding: 10px 0;
+        grid-gap: 10px;
+    }
+
+    .brand-child img {
+        width: 40px;
+        height: 25px;
+    }
+
+
+
+    /*------------------------
+photo grid
+-------------------------------*/
+
+    .collection {
+        margin: 50px 195px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .collection-heading {
+        font-size: 24px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .photo-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+        justify-content: center;
+    }
+
+    .photo-part {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.24);
+        border-radius: 5px;
+        width: 310px;
+        transition: 0.5s;
+    }
+
+    .photo-part:hover {
+        transform: scale(1.1);
+    }
+
+    .photo-sec {
+        padding: 17px 5px;
+    }
+
+    .photo-part img {
+        width: 300px;
+        height: 256px;
+    }
+
+    .photo-child {
+        transition: 0.5s;
+    }
+
+    .photo-child:hover {
+        background-color: rgba(0, 0, 0, 0.137);
+        border-radius: 7px;
+    }
+
+    .child-part {
+        display: flex;
+        align-items: center;
+    }
+
+    .child-part-item {
+        margin-right: 8px;
+    }
+
+    .photo-child h2, .photo-child h3, .rating, .fa-star, .photo-child p {
+        margin: 6px 0;
+    }
+
+    .photo-child h2 {
+        font-weight: 500;
+        font-size: 28px;
+    }
+
+    .photo-child h3 {
+        font-weight: 400;
+        font-size: 24px;
+    }
+
+    .rating {
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .photo-child p {
+        font-weight: 500;
+        font-size: 14px;
+        font-style: normal;
+    }
+}
+
+@media only screen and (min-width:901px) and (max-width:1400px) {
+
+    /*------------------------
+header
+--------------------------*/
+
+    .header-1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 120px 87px;
+    }
+
+    .header-parts {
+        display: flex;
+    }
+
+    .part {
+        margin-left: 40px;
+        text-align: center;
+        transition: 0.5s;
+    }
+
+    #header-1-1 h1 {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .part a {
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 16px;
+        color: black;
+    }
+
+    .head-icon {
+        font-size: 20px;
+    }
+
+    .part:hover {
+        transform: scale(1.1);
+        background-color: rgba(0, 0, 0, 0.199);
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    /*--------------------------
+section
+------------------------------*/
+
+    .sec {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* align-items: center;
+    justify-items: center; */
+        margin: 20px 87px;
+    }
+
+    .sec-part {
+        width: 50%;
+    }
+
+    .sec-p1 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .sec-p2 {
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .sec-part-child button {
+        width: 100px;
+        height: 22px;
+        border-radius: 41px;
+        border: none;
+        background-color: rgb(136, 7, 7);
+        font-size: 6px;
+        color: whitesmoke;
+        transition: 0.5s;
+    }
+
+    .sec-btn-icon {
+        margin-left: 24px;
+    }
+
+    .sec-part-child button:hover {
+        background-color: rgb(41, 41, 41);
+        font-size: 7px;
+        color: green;
+    }
+
+    .sec-part img {
+        width: 440px;
+        height: 414px;
+    }
+
+
+    /*------------------
+section 2 
+-----------------------*/
+
+    .brand {
+        margin: 40px 165px;
+    }
+
+    .brand-grid {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        justify-items: center;
+        justify-content: space-evenly;
+        padding: 10px 0;
+        grid-gap: 10px;
+    }
+
+    .brand-child img {
+        width: 40px;
+        height: 25px;
+    }
+
+
+
+    /*------------------------
+photo grid
+-------------------------------*/
+
+    .collection {
+        margin: 50px 195px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .collection-heading {
+        font-size: 24px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .photo-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+        justify-content: center;
+    }
+
+    .photo-part {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.24);
+        border-radius: 5px;
+        width: 310px;
+        transition: 0.5s;
+    }
+
+    .photo-part:hover {
+        transform: scale(1.1);
+    }
+
+    .photo-sec {
+        padding: 17px 5px;
+    }
+
+    .photo-part img {
+        width: 300px;
+        height: 256px;
+    }
+
+    .child-part {
+        display: flex;
+        align-items: center;
+    }
+
+    .child-part-item {
+        margin-right: 8px;
+    }
+
+    .photo-child h2, .photo-child h3, .rating, .fa-star, .photo-child p {
+        margin: 6px 0;
+    }
+
+    .photo-child h2 {
+        font-weight: 500;
+        font-size: 28px;
+    }
+
+    .photo-child h3 {
+        font-weight: 400;
+        font-size: 24px;
+    }
+
+    .rating {
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .photo-child p {
+        font-weight: 500;
+        font-size: 14px;
+        font-style: normal;
+    }
+
+}
